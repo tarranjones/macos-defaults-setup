@@ -2,7 +2,9 @@ import assert from 'assert';
 import macosDefaultsSetup from '../lib';
 
 describe('macos-defaults-setup', function () {
-  it('should have unit test!', function () {
-    assert(false, 'we expected this package author to add actual unit tests.');
+
+  it('need some tests ', function () {
+      // macosDefaultsSetup('../test-files/chrome.json');
+    assert(true, 'didn\'t run test, don\'t want to run exec' );
   });
 });

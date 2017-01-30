@@ -53,5 +53,14 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "flatten": "^1.0.2",
+    "is-array": "^1.0.1",
+    "is-obj": "^1.0.1",
+    "is-plain-obj": "^1.1.0",
+    "jsonfile": "^2.4.0",
+    "macos-defaults": "file:///Users/tarran/github.com/tarranjones/macOS-defaults",
+    "plain-obj-to-dot-notation": "^0.1.0"
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "com": {
+    "google": {
+      "Chrome": {
+        "canary": {
+          "ExtensionInstallSources": " -array 'https://gist.githubusercontent.com/' 'http://userscripts.org/*'",
+          "AppleEnableSwipeNavigateWithScrolls": " -bool false",
+          "AppleEnableMouseSwipeNavigateWithScrolls": " -bool false",
+          "DisablePrintPreview": " -bool true",
+          "PMPrintingExpandedStateForPrint2": " -bool true"
+        },
+        "ExtensionInstallSources": " -array 'https://gist.githubusercontent.com/' 'http://userscripts.org/*'",
+        "AppleEnableSwipeNavigateWithScrolls": " -bool false",
+        "AppleEnableMouseSwipeNavigateWithScrolls": " -bool false",
+        "DisablePrintPreview": " -bool true",
+        "PMPrintingExpandedStateForPrint2": " -bool true"
+      }
+    }
+  }
+}
