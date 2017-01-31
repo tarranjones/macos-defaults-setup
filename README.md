@@ -11,9 +11,18 @@ $ npm install --save macos-defaults-setup
 
 ```js
 var macosDefaultsSetup = require('macos-defaults-setup');
-
-macosDefaultsSetup('Rainbow');
+macosDefaultsSetup('preferences.json', 'chrome-preferences.json');
 ```
+
+##Roadmap
+- accept invalid json files such as json with comments or ldjson (line delimited json)
+- csv 
+- js module file (export obj)
+- json string
+- use streams where available 
+- merge objects before exec
+- defaults.write should accept value if (value typoef == 'object')
+
 ## License
 
 MIT © [tarran](tarranjones.com)
