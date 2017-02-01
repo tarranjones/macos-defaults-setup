@@ -60,7 +60,7 @@
     "is-obj": "^1.0.1",
     "is-plain-obj": "^1.1.0",
     "jsonfile": "^2.4.0",
-    "macos-defaults": "file:///Users/tarran/github.com/tarranjones/macOS-defaults",
+    "macos-defaults": "^1.0.1",
     "plain-obj-to-dot-notation": "^0.1.0"
   }
 }

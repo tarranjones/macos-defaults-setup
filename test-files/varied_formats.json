@@ -1,0 +1,57 @@
+{
+  "NSGlobalDomain" : [
+    "NSDocumentSaveNewDocumentsToCloud -bool false",
+    "NSTableViewDefaultSizeMode -int 1",
+    {
+      "key" : "NSNavPanelExpandedStateForSaveMode",
+      "value" : "true",
+      "type" : "bool"
+    }
+  ],
+  "com" : {
+    "apple" : {
+      "finder" : [
+        "ShowExternalHardDrivesOnDesktop -bool true",
+        {
+          "key":"ShowStatusBar",
+          "type": "-bool",
+          "value": "true"
+        },
+      ],
+    },
+    "google": {
+      "Chrome": {
+        "canary": {
+          "ExtensionInstallSources": " -array 'https://gist.githubusercontent.com/' 'http://userscripts.org/*'",
+        },
+        "ExtensionInstallSources": " -array 'https://gist.githubusercontent.com/' 'http://userscripts.org/*'",
+        "NSNavPanelExpandedStateForSaveMode" : {
+          "key" : "NSNavPanelExpandedStateForSaveMode",
+          "value" : "true",
+          "type" : "bool",
+          "other": " exclude ",
+          "known_flag" : "allowed ? ",
+          "domain" : "google.Chrome"
+        },
+      }
+    }
+  },
+  "org" : [
+      {
+        "m0k" : {
+          "transmission" : [
+            "UseIncompleteDownloadFolder -bool true",
+            "DownloadAsk -bool false"
+          ]
+        }
+      },
+      {
+        "m0k" : {
+          "transmission" : [
+            "DeleteOriginalTorrent -bool true",
+            "WarningLegal -bool false"
+          ]
+        }
+      }
+    ]
+}
