@@ -48,7 +48,10 @@
       "mocha": true
     }
   },
-  "repository": "tarranjones/macos-defaults-setup",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarranjones/macos-defaults-setup.git"
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
