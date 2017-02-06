@@ -48,6 +48,9 @@
       "mocha": true
     }
   },
+  "bin": {
+    "macos-defaults-setup": "bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tarranjones/macos-defaults-setup.git"
