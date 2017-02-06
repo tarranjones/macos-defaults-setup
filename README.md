@@ -46,6 +46,11 @@ macos-defaults-setup <file1.json> <file2.json> ...
 
 MIT © [tarran](tarranjones.com)
 
+<!-- 
+https://github.com/DataGarage/convert-geo
+https://github.com/DataGarage/convert-json -->
+
+
 
 [npm-image]: https://badge.fury.io/js/macos-defaults-setup.svg
 [npm-url]: https://npmjs.org/package/macos-defaults-setup

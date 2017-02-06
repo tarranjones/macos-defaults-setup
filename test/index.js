@@ -1,5 +1,5 @@
 import assert from 'assert';
-import macOSDefaultsSetup from '../dist'
+import macOSDefaultsSetup from '../lib'
 // import stripJsonComments from 'strip-json-comments';
 
 
@@ -9,7 +9,7 @@ describe('macos-defaults-setup', function () {
 
     // let Twitterstring = macOSDefaultsSetup.readFileSync('./test-files/com.twitter.twitter-mac.with.comments.json')
     // let twitterstringNoComments = stripJsonComments(Twitterstring);
-    let twitterObj  = macOSDefaultsSetup.parseJsonLikeFileSync('../test-files/com.twitter.twitter-mac.with.comments.json')
+    let twitterObj  = macOSDefaultsSetup('test-files/com.twitter.twitter-mac.with.comments.json')
 
     assert(twitterObj !== null, 'is-null')
   });
