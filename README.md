@@ -4,6 +4,10 @@
 ## Installation
 
 ```sh
+$ npm install --global macos-defaults-setup
+```
+
+```sh
 $ npm install --save macos-defaults-setup
 ```
 
@@ -14,6 +18,10 @@ var macosDefaultsSetup = require('macos-defaults-setup');
 macosDefaultsSetup('preferences.json', 'chrome-preferences.json');
 ```
 
+```sh
+macos-defaults-setup <file1.json> <file2.json> ...
+```
+
 ##Roadmap
 - accept invalid json files such as json with comments or ldjson (line delimited json)
 - csv 
@@ -22,6 +30,17 @@ macosDefaultsSetup('preferences.json', 'chrome-preferences.json');
 - use streams where available 
 - merge objects before exec
 - defaults.write should accept value if (value typoef == 'object')
+- add options to skip argument type detection 
+    - --json-file
+    - --obj
+    - --ldjson-file
+    - --json
+    - --csv-file
+    - --xml
+- --skip-invalid
+- --verbose
+- --help 
+- add shorthand/common typos (nopt)
 
 ## License
 
