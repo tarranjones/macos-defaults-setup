@@ -9,6 +9,7 @@
     "url": "tarranjones.com"
   },
   "files": [
+    "bin",
     "dist"
   ],
   "main": "dist/index.js",
